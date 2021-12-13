@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.registrationInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+    color: white;
+    border-radius: 10px;
+}
+
+.success{
+    background-color: #39C16C;
+}
+
+.error{
+    background-color: #FA113D;
+}
+
+.registrationInfo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.content{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.icon{
+    position: relative;
+    top: -7px;
+}
+
+.icon i{
+    font-size: 6em;
+}

@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 1.5rem;
+}
+
+.offers{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    border: 0.2px solid #777;
+    padding: 10px 20px;
+}
+
+.stock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #4cb74d;
+    font-weight: bold;
+    background-color: #ecf6ec;
+    border-radius: 10px;
+}
+
+.stock p{
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+}
+
+.stock i{
+    font-size: 110%;
+}
+
+.price{
+    text-align: center;
+}
+
+.price p{
+    font-weight: 200;
+}
+
+.offer button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.offer img{
+    height: 200px;
+}
+
+.stockRed{
+    background-color: #FA113D;
+    color: white;
+}
+
+.cart{
+    margin-left: 15px;
+}
+
+

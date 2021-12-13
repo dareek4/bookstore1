@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+}
+
+:root{
+    --menuHeight: 11vh
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2vh; */
+    height: var(--menuHeight);
+    font-family: Roboto, serif;
+    background-color: #2C2C2C;
+    color: white;
+    border: 1px solid #3C3C3C;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo h1{
+    cursor: pointer;
+}
+
+.logo *{
+    padding-left: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.links p{
+    padding-left: 5vw;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.links p:hover{
+    transform: scale(1.05)
+}
+
+
+.buttons{
+    margin-right: 20px;
+}
+
+.buttons *{
+    margin-left: 10px;
+}
+
+
+.hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+    height: var(--menuHeight);
+}
+
+.hamburger i{
+    font-size: 2em;
+    color: white;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.hamburger p{
+    position: relative;
+    top: 10px;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+.hamburger button{
+    padding: 10px 20px;
+}
+
+.hamburger i:hover{
+    transform: scale(1.05)
+}
+
